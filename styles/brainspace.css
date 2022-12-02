@@ -1,0 +1,61 @@
+body {
+  Margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  word-spacing: normal;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+}
+
+.btn a {
+  transition: all 200ms ease-in;
+}
+
+.btn a:hover {
+  background-color: transparent !important;
+  transform: translateY(-5px) !important;
+}
+
+.btn-subscribe:hover a {
+  background-color: transparent !important;
+  outline: 2px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+.btn-join a:hover {
+  font-weight: bolder;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width:500px) {
+
+  .column,
+  .three-column {
+    max-width: 100% !important;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .column img,
+  .three-column img {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .column {
+    max-width: 50% !important;
+  }
+
+  .three-column {
+    max-width: 33.3% !important;
+  }
+}

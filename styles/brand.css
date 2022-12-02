@@ -1,0 +1,124 @@
+body {
+  Margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  word-spacing: normal;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: Montserra, Robot, Aria, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #FFFFFF;
+}
+
+.text {
+  padding: 0;
+  font-size: 12px;
+  font-family: Montserra, Robot, Aria, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  Margin: 0;
+  margin-bottom: 24px;
+  line-height: 1.1;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Montserrat, Roboto, Arial, sans-serif;
+}
+
+p {
+  Margin: 0 0 14px 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  outline: none;
+  text-decoration: none;
+  line-height: 100%;
+  -ms-interpolation-mode: bicubic;
+}
+
+.btn a {
+  transition: all 200ms ease-in;
+}
+
+.btn a:hover {
+  /* background-color: #1e3650 !important; */
+  transform: translateY(-5px) !important;
+}
+
+.btn-subs a:hover {
+  /* background-color: #1e3650 !important; */
+  transform: scale(1.2) !important;
+}
+
+@media screen and (max-width:500px) {
+
+  .column,
+  .three-column {
+    max-width: 100% !important;
+  }
+
+  .column img,
+  .three-column img {
+    width: 80% !important;
+    text-align: center;
+  }
+
+  .three-column .icon-img {
+    width: 20px !important;
+  }
+
+  .offer-text {
+    font-size: 50px !important;
+  }
+
+  .column-foot {
+    padding: 20px 10px !important;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .three-column .column {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 460px) {
+  .three-column .column {
+    max-width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 426px) {
+
+  .column-foot {
+    max-width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 501px) {
+
+  .column {
+    max-width: 50% !important;
+  }
+
+  .three-column {
+    max-width: 33.3% !important;
+  }
+
+}
