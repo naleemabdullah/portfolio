@@ -10,8 +10,11 @@
 
 .works-wrapper {
   width: 100%;
-  padding-top: 120px;
   padding-bottom: 80px;
+}
+
+.works-wrapper:first-of-type {
+  padding-top: 120px;
 }
 
 .title-works {
